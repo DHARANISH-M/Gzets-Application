@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GZETS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/toplogo.png" type="image/x-icon">
+    <script>
+        function myfunction(){
+            alert('Login Submitted!!!');
+        }
+    </script>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <img src="image/toplogo2.png" width="50px" height="50px" alt="">
+                <a class="navbar-brand text-white m-2" href="#">GZEST<span style="color: rgb(98, 252, 221);;">s</span></a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link  m-2 " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2" href="products.html">products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link   m-2" href="register.html">Contact US</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-info m-2"><a class="nav-link1 text-white" href="login.html" style="text-decoration: none;">Login</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    <center><h6 class="display-6 mt-3">Login Form</h6></center>
+
+   <div>
+        <form action="" style="max-width: 400px; margin: auto; padding-top: 20px;">
+            <div class="loginform">
+                <label for="name">Name</label>
+                <br>
+                <input style="width: 300px; border-radius: 5px;" type="text" name="name" id="name" placeholder=" User Name" required> <br> <br>
+                <label for="emali">Email</label><br>
+                <input style="width: 300px; border-radius: 5px;" type="email" name="email" placeholder=" @gmail.com" id="email" required> <br> <br>  <label for="password">Password</label> <br>
+                <input  style="width: 300px; border-radius: 5px;" type="password" name="password" id="password" placeholder=" Password"  required> <br>
+                <input  type="checkbox" class="mt-4"> <label for="text">Show Password</label> <br>
+                 <input class="btn " id="loginbtn" type="submit" value="Login" onclick="myfunction()" style="background-color: rgb(98, 252, 221); color: black; border-color:  rgb(98, 252, 221); ">
+                 <label for="signup" class="mt-2">Don't have an account?<a href="">  signup</a></label>
+                 <center>Or</center>
+                 <div class="text-center">
+                    <img src="image/google.png" alt="" width="40px" height="40px" class="p-2">
+                    <img src="image/twitter.jpg" alt="" width="40px" height="40px" class="p-2">
+                    <img src="image/facebook.png" alt="" width="40px" height="40px" class="p-2">
+                 </div>
+            </div>
+        </form>
+   </div>
+
+</body>

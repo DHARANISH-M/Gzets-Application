@@ -1,0 +1,91 @@
+.nav-link:hover{
+    background-color: aqua;
+    color: rgb(12, 12, 12);
+    border-radius: 50px;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+#loginbtn{
+     padding-right: 150px;
+    padding-left: 130px;
+    
+}
+.loginform{
+    padding: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+}
+.paragraph{
+    font-size: 22px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-image{
+    height: 500px;
+    margin-left: 20px;
+}
+#content-button{
+     margin-left: 50px;
+}
+#content-button:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.footer-text{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.products-top-image{
+    height: 120px;
+    width: 130px;
+    
+}
+.products-top-image1{
+    height: 90px;
+    width: 130px;
+    
+}
+.top-class{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 30px;
+}
+.products-button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.products-button:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.products-hr:hover{
+    transition: 0.5s;
+     transform: scale(1.1);
+}
+.product-top-iteam:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.products-hr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form_design{
+    margin: auto;
+}
